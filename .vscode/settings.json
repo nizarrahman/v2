@@ -1,0 +1,19 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "css.validate": false,
+  "editor.tabSize": 2,
+  "headwind.runOnSave": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  }
+}
